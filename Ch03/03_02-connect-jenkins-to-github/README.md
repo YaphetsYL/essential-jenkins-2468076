@@ -40,7 +40,7 @@ Follow these steps to connect Jenkins to GitHub.
 
 - Go back to the GitHub repo and configure the settings to create a webhook for the project you just created.
   - Select `Settings` &rarr; `Webhooks` &rarr; `Add webhook`.
-  - Under `Payload URL`, paste in the URL for your Jenkins server.
+  - Under `Payload URL`, paste in the URL for your Jenkins server. (Please use IP)
   - Immediately after the Jenkins server URL, add `/github-webhook/`.
   - *NOTE: Please be sure to include the trailing slash on `github-webhook/`.  The field should be in a format similar to `http://your-jenkins-server.com/github-webhook/`.*
   - Under `Content type`, select `application/json`.
